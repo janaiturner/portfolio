@@ -27,6 +27,15 @@ font-style: normal;
     color: white;
   }
   
+  h1,
+  p {
+    color: white;
+  }
+
+  .about-words{
+    margin: 75px;
+  }
+
   /* Container for flexboxes */
   section {
     display: -webkit-flex;
@@ -163,6 +172,11 @@ font-style: normal;
     rotate: -7deg;
   }
 
+  .fefe-about{
+    max-width: 260px;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
 
   .topnav a {
     float: left;
@@ -225,31 +239,3 @@ font-style: normal;
     }
   }
 
-  #info-about{
-    position: absolute;
-    margin-right: 80px;
-    margin-left: 10px;
-    top: 300px;
-    color: white;
-    background-color: rgba(255, 0, 0, 0)!important;
-    opacity: 1!important;
-    z-index: 2;
-}
-
-#info-img1{
-  position: absolute;
-  top: 300px;
-  color: white;
-  background-color: rgba(255, 0, 0, 0)!important;
-  opacity: 1!important;
-  z-index: 2;
-}
-
-#info-img2{
-  position: absolute;
-  top: 300px;
-  color: white;
-  background-color: rgba(255, 0, 0, 0)!important;
-  opacity: 1!important;
-  z-index: 2;
-}
