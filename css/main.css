@@ -58,7 +58,7 @@ font-style: normal;
   
   /* Style the footer */
   footer {
-    background-color: #777;
+    background-color: #000000;
     padding: 10px;
     text-align: center;
     color: white;
@@ -137,14 +137,27 @@ font-style: normal;
     background-color: #00000000;
     
   }
-  
+  .fefe-gallery:hover{
+    filter: grayscale(100%);
+  }
+
   .fefe{
     max-width: 150px
+  }
+  
+  .fefe:hover{
+    filter: grayscale(100%);
+    rotate: -7deg;
   }
 
   .fefe-nav{
     max-width: 100px;
     padding-top: 12px;
+  }
+
+  .fefe-nav:hover{
+    filter: grayscale(100%);
+    rotate: -7deg;
   }
 
 
@@ -162,8 +175,8 @@ font-style: normal;
   }
   
   .topnav a:hover {
-    filter: grayscale(100%);
-    rotate: -7deg;
+    /* filter: grayscale(100%);
+    rotate: -7deg; */
     color: black;
   }
   
@@ -174,10 +187,18 @@ font-style: normal;
   
   .topnav .icon {
     display: none;
-    filter: none; !important
   }
   
-  @media screen and (max-width: 600px) {
+  @media screen and (max-width: 608px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+      padding-top: 30px;
+    }
+  }
+
+  @media screen and (max-width: 800px) {
     .topnav a:not(:first-child) {display: none;}
     .topnav a.icon {
       float: right;
@@ -186,7 +207,8 @@ font-style: normal;
     }
   }
   
-  @media screen and (max-width: 600px) {
+  
+  @media screen and (max-width: 800px) {
     .topnav.responsive {position: relative;}
     .topnav.responsive .icon {
       position: absolute;
