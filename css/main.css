@@ -14,8 +14,9 @@ font-style: normal;
   
   body {
     font-family: gill-sans-nova, sans-serif;
-   font-weight: 400;
+    font-weight: 400;
     font-style: normal;
+    background-color: #000000;
   }
 
   header {
@@ -52,7 +53,7 @@ font-style: normal;
     -webkit-flex: 3;
     -ms-flex: 3;
     flex: 3;
-    background-color: #f1f1f1;
+    background-color: #f1f1f100;
     padding: 10px;
   }
   
@@ -223,3 +224,32 @@ font-style: normal;
       text-align: center;
     }
   }
+
+  #info-about{
+    position: absolute;
+    margin-right: 80px;
+    margin-left: 10px;
+    top: 300px;
+    color: white;
+    background-color: rgba(255, 0, 0, 0)!important;
+    opacity: 1!important;
+    z-index: 2;
+}
+
+#info-img1{
+  position: absolute;
+  top: 300px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0)!important;
+  opacity: 1!important;
+  z-index: 2;
+}
+
+#info-img2{
+  position: absolute;
+  top: 300px;
+  color: white;
+  background-color: rgba(255, 0, 0, 0)!important;
+  opacity: 1!important;
+  z-index: 2;
+}
