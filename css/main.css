@@ -168,6 +168,15 @@ html {
     flex: 25%;
     padding: 0 0px;
   }
+
+  .columne-text {
+    -ms-flex: 25%;
+    flex: 25%;
+    padding: 0 0px;
+    display: flex;
+    justify-content: space-around;
+    transform: translateY(-150%);
+}
   
   .column img {
     margin-top: 8px;
@@ -304,5 +313,80 @@ html {
     }
   }
 
+/* Style inputs */
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+    background-color: white;
+    color: black;
+    padding: 14px 20px;
+    margin-bottom: 30px;
+    margin-left: 80px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: red;
+  color: black;
+}
+
+/* Style the container/contact section */
+.contact-container {
+  border-radius: 0px;
+  padding: 10px;
+  color: white;
+  margin-left: 10px;
+  transform: translateY(-140px);
+}
+
+/* Create two columns that float next to eachother */
+.contact-column {
+  float: left;
+  width: 90%;
+  margin-top: 15px;
+  margin-right: 5px;
+  margin-left: 20px;
+  padding-top: 50px;
+}
+
+/* Clear floats after the columns */
+.contact-row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .contact-column {
+    width: 75%;
+    margin-top: 0;
+    margin-left: 25px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .input[type=submit] {
+    width: 75%;
+    margin-top: 0;
+    margin-left: 30px;
+  }
+}
+
+.contact-im{
+	width:100%
+}
+
+.textarea{
+	height:170px
+}
 
   
