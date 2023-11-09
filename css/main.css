@@ -1,12 +1,12 @@
 /* Place CSS styles here */
 
-font-family: gill-sans-nova, sans-serif;
+/* font-family: gill-sans-nova, sans-serif;
 font-weight: 400;
 font-style: normal;
 
 font-family: "alta-california", sans-serif;
 font-weight: 400;
-font-style: normal;
+font-style: normal; */
 
 * {
     box-sizing: border-box;
@@ -108,9 +108,9 @@ html {
   }
   
   .row {
-    display: -ms-flexbox; /* IE10 */
+    display: -ms-flexbox; 
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
+    -ms-flex-wrap: wrap; 
     flex-wrap: wrap;
     padding: 0 4px;
     justify-content: space-evenly;
@@ -131,9 +131,9 @@ html {
   }
 
   .rowe-about {
-    display: -ms-flexbox; /* IE10 */
+    display: -ms-flexbox; 
     display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
+    -ms-flex-wrap: wrap; 
     flex-wrap: wrap;
     padding: 0 0px;
     justify-content: center;
@@ -158,14 +158,14 @@ html {
   
   /* Create four equal columns that sits next to each other */
   .column {
-    -ms-flex: 25%; /* IE10 */
+    -ms-flex: 25%; 
     flex: 25%;
     max-width: 25%;
     padding: 0 4px;
   }
 
   .columne {
-    -ms-flex: 25%; /* IE10 */
+    -ms-flex: 25%; 
     flex: 25%;
     padding: 0 0px;
   }
@@ -314,7 +314,7 @@ html {
     }
   }
 
-/* Style inputs */
+
 input[type=text], select, textarea {
   width: 100%;
   padding: 12px;
@@ -339,7 +339,7 @@ input[type=submit]:hover {
   color: black;
 }
 
-/* Style the container/contact section */
+
 .contact-container {
   border-radius: 0px;
   padding: 20px;
@@ -358,7 +358,7 @@ input[type=submit]:hover {
   padding-top: 50px;
 }
 
-/* Clear floats after the columns */
+
 .contact-row:after {
   content: "";
   display: table;
