@@ -10,6 +10,7 @@ font-style: normal;
 
 * {
     box-sizing: border-box;
+    scroll-behavior: smooth;
   }
   
 html {
@@ -341,7 +342,7 @@ input[type=submit]:hover {
 /* Style the container/contact section */
 .contact-container {
   border-radius: 0px;
-  padding: 10px;
+  padding: 20px;
   color: white;
   margin-left: 10px;
   transform: translateY(-140px);
