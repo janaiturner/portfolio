@@ -405,7 +405,7 @@ div.scroll-container {
   overflow-x: scroll; 
   overflow-y: auto;   
   white-space: nowrap;
-  padding: 10px;
+  padding-bottom: 10px;
 }
 
 div.scroll-container::-webkit-scrollbar {
