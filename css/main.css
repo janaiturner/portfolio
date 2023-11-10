@@ -81,6 +81,13 @@ html {
     background-color: #f1f1f100;
     padding: 10px;
   }
+
+  article.actual {
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f100;
+    padding: 40px;
+  }
   
   /* Style the footer */
   footer {
@@ -174,6 +181,16 @@ html {
     max-width: 25%;
     padding: 0 4px;
   }
+
+  .column-actual {
+    display: flex;
+    flex-direction: column;
+    max-width: 25%;
+    padding: 0 4px;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
 
   .columne {
     -ms-flex: 25%; 
@@ -417,6 +434,13 @@ div.scroll-container::-webkit-scrollbar-thumb {
   border-radius: 6px;    
 }
 
-/* div.scroll-container img {
-  padding: 5px;
-} */
+.fefe-actual{
+  max-width: fit-content;
+}
+
+img.actual {
+  max-width: 100%;
+  height: auto;
+  }
+  
+  
