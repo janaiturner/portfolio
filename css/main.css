@@ -457,7 +457,7 @@ div.scroll-container::-webkit-scrollbar {
 }
 
 div.scroll-container::-webkit-scrollbar-thumb {
-  background-color: #000000;
+  background-color: #302f2f90;
   border-radius: 6px;    
 }
 
