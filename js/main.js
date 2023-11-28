@@ -27,6 +27,21 @@ function myFunction() {
   }
 
   // if (window.innerWidth < 800) {
+  //   console.log('Smaller Screen - Scrolling');
+  //   setTimeout(() => {
+  //     window.scrollTo(0, document.getElementById('contact-page').offsetTop);
+  //   }, 100);
+  // } else {
+  //   if (document.body.id === 'contact-page') {
+  //     console.log('Contact Page - Scrolling');
+  //     // Run the scroll code only for the contact page
+  //     setTimeout(() => {
+  //       window.scrollTo(0, document.body.scrollHeight / 2);
+  //     }, 100);
+  //   }
+  // }
+
+  // if (window.innerWidth < 800) {
   //   setTimeout(() => {
   //     window.scrollTo(0, document.body.scrollHeight / 4);
   //   }, 100);
