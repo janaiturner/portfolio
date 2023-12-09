@@ -263,6 +263,7 @@ html {
       }
   }
 
+  
   .topnav {
     overflow: hidden;
     background-color: #00000000;
@@ -489,6 +490,7 @@ img.actual-mockup {
     align-content: center;
 
   }
+
 
   .image-container {
     display: flex;
