@@ -218,7 +218,19 @@ html {
     -ms-flex: 25%; 
     flex: 25%;
     padding: 0 0px;
+    display: flex;
+    justify-content: space-around;
   }
+
+  .intro-columne {
+    -ms-flex: 25%; 
+    flex: 25%;
+    padding: 0 0px;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+  }
+  
 
   .columne-text {
     -ms-flex: 25%;
@@ -400,8 +412,11 @@ input[type=submit]:hover {
   border-radius: 0px;
   padding: 20px;
   color: white;
-  margin-left: 10px;
+  /* margin-left: 10px;
   transform: translateY(-140px);
+  max-width: 900px; */
+  display: flex;
+  justify-content: center;
 }
 
 /* Create two columns that float next to eachother */
@@ -513,4 +528,57 @@ img.actual-mockup {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+  div.thanks {
+    width: 100%;
+    border: 15px;
+    padding: 50px;
+    margin: 50px;
+  }
+
+  .thankful {
+    /* -ms-flex: 25%; 
+    flex: 25%;
+    padding: 0 0px; */
+    display: flex;
+    justify-content: center;
+    padding: 5px;
+  }
+
+  .message{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  img.thanks {
+    max-width: 350px;
+  }
+
+  .fefe-casa{
+    max-width: 120px;
+    padding-top: 25px;
+
+  }
+
+  .fefe-casa:hover{
+    filter: grayscale(100%);
+    rotate: -7deg;
+  }
+
+  .fefefoot{
+    max-width: 125px;
+  }
+
+  article.about {
+    -webkit-flex: 3;
+    -ms-flex: 3;
+    flex: 3;
+    background-color: #f1f1f100;
+    padding: 20px;
+    display: flex;
+    justify-items: center;
+    max-width: 1000px;
   }
