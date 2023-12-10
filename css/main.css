@@ -238,7 +238,7 @@ html {
     padding: 0 0px;
     display: flex;
     justify-content: space-around;
-    transform: translateY(-150%);
+    /* transform: translateY(-150%); */
 }
   
   .column img {
@@ -409,8 +409,8 @@ input[type=submit]:hover {
 
 
 .contact-container {
-  border-radius: 0px;
-  padding: 20px;
+  /* border-radius: 0px;
+  padding: 20px; */
   color: white;
   /* margin-left: 10px;
   transform: translateY(-140px);
@@ -419,9 +419,8 @@ input[type=submit]:hover {
   justify-content: center;
 }
 
-/* Create two columns that float next to eachother */
+
 .contact-column {
-  float: left;
   width: 90%;
   margin-top: 15px;
   margin-right: 5px;
