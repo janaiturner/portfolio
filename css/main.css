@@ -118,6 +118,7 @@ html {
     padding-bottom: 2px;
     text-align: center;
     color: white;
+    margin-top: 0;
   }
   
 
@@ -409,11 +410,11 @@ input[type=submit]:hover {
 
 
 .contact-container {
-  /* border-radius: 0px;
-  padding: 20px; */
+  border-radius: 0px;
+  padding: 20px;
   color: white;
-  /* margin-left: 10px;
-  transform: translateY(-140px);
+  margin-left: 30px;
+  /*transform: translateY(-140px);
   max-width: 900px; */
   display: flex;
   justify-content: center;
@@ -440,7 +441,7 @@ input[type=submit]:hover {
   .contact-column {
     width: 75%;
     margin-top: 0;
-    margin-left: 25px;
+    /* margin-left: 25px; */
   }
 }
 
@@ -564,7 +565,7 @@ img.actual-mockup {
   }
 
   .fefe-casa{
-    max-width: 120px;
+    max-width: 245px;
     padding-top: 25px;
 
   }
@@ -575,7 +576,8 @@ img.actual-mockup {
   }
 
   .fefefoot{
-    max-width: 125px;
+    max-width: 90px;
+    filter: grayscale(100%);
   }
 
   article.about {
@@ -587,4 +589,24 @@ img.actual-mockup {
     display: flex;
     justify-items: center;
     max-width: 1000px;
+    margin-bottom: 0;
+  }
+
+  #submit {
+    padding: 20px;
+    max-width: 200px ;
+  }
+
+  #submit:hover{
+    filter:grayscale(100%);
+  }
+
+  div.submit{
+    display: flex;
+    justify-content: space-around;
+  }
+
+  h6{
+    font-weight: 300;
+    font-size: 0.6rem;
   }
